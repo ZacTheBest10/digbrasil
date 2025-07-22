@@ -1,0 +1,60 @@
+{
+  "colors": {
+    "primary": "#1e3a8a",
+    "secondary": "#000000", 
+    "success": "#166534",
+    "warning": "#92400e",
+    "error": "#dc2626",
+    "info": "#374151",
+    "embed": "#1e3a8a"
+  },
+  "emojis": {
+    "success": "✅",
+    "error": "❌",
+    "warning": "⚠️",
+    "info": "ℹ️",
+    "loading": "⏳",
+    "ticket": "🎫",
+    "verify": "✅",
+    "config": "⚙️",
+    "mod": "🛡️",
+    "admin": "👑",
+    "member": "👤",
+    "online": "🟢",
+    "offline": "⚫",
+    "dnd": "🔴",
+    "idle": "🟡"
+  },
+  "bot": {
+    "name": "DIG Brasil",
+    "description": "Sistema profissional de moderação e administração",
+    "version": "2.0.0",
+    "prefix": "!",
+    "owner": "DIG Brasil Team"
+  },
+  "systems": {
+    "verification": {
+      "enabled": true,
+      "role": null,
+      "channel": null
+    },
+    "tickets": {
+      "enabled": true,
+      "category": null,
+      "logs": null
+    },
+    "automod": {
+      "enabled": false,
+      "actions": {
+        "spam": "mute",
+        "caps": "warn",
+        "links": "delete"
+      }
+    },
+    "antiraid": {
+      "enabled": false,
+      "limit": 5,
+      "timeframe": 10
+    }
+  }
+}
